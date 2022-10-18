@@ -12,7 +12,9 @@ form button {
   font-weight: normal;
 }
 
-body, input, textarea {
+body,
+input,
+textarea {
   font-family: "Roboto", sans-serif;
 }
 
@@ -111,12 +113,13 @@ form button {
 form button:hover {
   background-color: #314e9e;
 }
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   outline-color: #182c61;
 }
 footer {
   background-color: #182c61;
   color: #ecf0f1;
   padding: 1rem 0;
-
+  text-align: center;
 }
